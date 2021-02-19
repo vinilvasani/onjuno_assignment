@@ -1,13 +1,13 @@
 <template>
   <div class="shadow-lg bg-gray-100">
-    <div class="container flex py-5 justify-between items-end px-8">
+    <div class="container flex py-5 justify-between items-baseline px-8">
       <!-- Logo Container -->
       <div class="text-gray-600 text-2xl font-bold">
         <NuxtLink to="/">OnJuno</NuxtLink>
       </div>
       <!-- Menu Items Container -->
       <div
-        class="relative focus:outline-none"
+        class="relative focus:outline-none flex"
         @focus="toggleDropDown"
         @blur="toggleDropDown"
         tabindex="0"

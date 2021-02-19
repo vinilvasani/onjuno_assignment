@@ -9,7 +9,9 @@
     </h2>
     <p class="text-gray-500 text-base mt-4 text-center">
       This behavior of the dropdown menu has been achieved using the focus and
-      blur events on the Dropdown element
+      blur events on the Dropdown element. You can click on the links in the
+      dropdown menu to navigate between different pages and to go back to the
+      home page you can click on the placeholder logo.
     </p>
   </div>
 </template>
